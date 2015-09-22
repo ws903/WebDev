@@ -1,0 +1,51 @@
+
+
+<style>
+
+    
+  .heading {
+    width: 500px;
+    margin: 20px auto;
+    font-size: 500px;
+  }
+
+  h1 {
+    font-size: 50px;
+    color: blue;
+  }
+
+  li {
+    height: 45px;
+  }
+
+  .body {
+    text-align: center;
+  }
+
+  .fixed {
+    position: fixed;
+    bottom: 0; 
+    right: 0;
+    width: 150px;
+    background-color: #87CEFA;
+    text-align: center;
+    border: solid blue 5px;
+    -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+        box-sizing: border-box;
+  }
+
+  .relative {
+    position: relative;
+    width: 500px;
+    height: 400px;
+  }
+  .absolute {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+  }
+
+  </style>
