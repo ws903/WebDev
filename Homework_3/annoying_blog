@@ -1,0 +1,24 @@
+<html>
+  <head>
+        <meta charset="utf-8"></meta>
+    <title>Annoying</title>
+  <!-- load CSS -->
+    <link href = "styles/style.css"
+    rel="stylesheet" type="text/css">
+
+<img src="http://vignette2.wikia.nocookie.net/tehmeme/images/6/6b/Face_coolface_trollface_trolls_desktop_3508x2480_wallpaper-158842.png/revision/latest?cb=20120502012913" alt="troll" height="200">
+
+  </head>
+  <body background="tumblr_mjyu08LTGI1qbevrxo1_500.gif">
+    <p class="heading">
+      <h1>#trolled #trolled #trolled #trolled #trolled</h1>
+    </p>
+    
+  <div class=video>
+ <embed src="tumblr_lddvdhUVqb1qd4z82o1.mp3" autostart="true" loop="true"
+width="2" height="0">
+</embed>
+  </div>
+
+  </body>
+</html>
