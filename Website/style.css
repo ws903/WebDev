@@ -1,12 +1,21 @@
-.logo{
-	height: 30%;
-	width: 90%;
+
+.navbar-brand{
+	margin-right: 260px;
 }
 
 
+.front-image-first{
+	float: left;
+	width:600px;
+	height: 600px;
+	margin:25px;
 }
 
-.jumbotron{
-	height: 10%;
-	width: 40%;
+.side-info{
+	position: absolute;
+	right: 0;
+	width: 300px;
+	height: 500px;
+	border: 1px solid black;
+	margin: 25px;
 }
