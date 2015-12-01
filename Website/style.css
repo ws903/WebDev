@@ -68,3 +68,23 @@
 .after3{
 	clear: left;
 }
+
+.block-title2{
+	position: relative;
+	left: 25;
+	font-family: silom;
+	color: 1F6CFF;
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+.after4{
+	clear: left;
+}
+
+.box2{
+	display: inline-block;
+	height: 200px;
+	width: 350;
+	margin: 2.5em;
+}
