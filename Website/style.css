@@ -1,14 +1,28 @@
 
+.logo{
+	padding-left: 100px;
+}
 .navbar-brand{
-	margin-right: 260px;
+	margin-right: 220px;
+	font-size: 40px;
+	padding-left: 50px;
+	padding-top: 25;
+}
+
+.nav-each{
+	font-family: silom;
+}
+
+.navbar-form{
+	
 }
 
 
 .front-image-first{
 	float: left;
-	width:600px;
+	width: 600px;
 	height: 600px;
-	margin:25px;
+	margin: 25px;
 }
 
 .side-info{
@@ -18,4 +32,39 @@
 	height: 500px;
 	border: 1px solid black;
 	margin: 25px;
+	text-align: center;
+	font-family: silom;
+}
+
+.side-info-title{
+	color: 1F6CFF;
+	text-decoration: underline;
+}
+
+.after{
+	clear: left;
+}
+
+.block-title{
+	position: relative;
+	left: 25;
+	font-family: silom;
+	color: 1F6CFF;
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+.after2{
+	clear: left;
+}
+
+.box{
+	display: inline-block;
+	height: 200px;
+	width: 350;
+	margin: 2.5em;
+}
+
+.after3{
+	clear: left;
 }
