@@ -88,3 +88,25 @@
 	width: 350;
 	margin: 2.5em;
 }
+
+.heading-news{
+	position: relative;
+	left: 25;
+	font-family: silom;
+	font-size: 45px;
+}
+
+.container{
+	display: -webkit-flex;
+	display: flex;
+	margin: 2em;
+}
+
+.pic1{
+	width: 700px;
+}
+
+.flex-column{
+	-webkit-flex:1;
+	flex:1;
+}
