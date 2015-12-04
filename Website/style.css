@@ -89,11 +89,18 @@
 	margin: 2.5em;
 }
 
-.heading-news{
+.heading-sub{
 	position: relative;
 	left: 25;
 	font-family: silom;
 	font-size: 45px;
+}
+
+.heading-news{
+	position: relative;
+	text-align: center;
+	font-family: silom;
+	font-size: 35px;
 }
 
 .container{
@@ -109,4 +116,25 @@
 .flex-column{
 	-webkit-flex:1;
 	flex:1;
+}
+
+.news-front-pic{
+	text-align: center;
+	margin: 60px;
+	overflow: auto;
+}
+
+
+.news-body{
+	position: relative;
+	top: 150px;
+	font-family: silom;
+	font-size: 20px;
+	width: 1000px;
+	margin:  0 auto;
+	line-height: 250%;
+}
+
+.source{
+	line-height: 800%;
 }
