@@ -34,6 +34,7 @@
 	margin: 25px;
 	text-align: center;
 	font-family: silom;
+	line-height: 300%;
 }
 
 .side-info-title{
@@ -65,6 +66,18 @@
 	margin: 2.5em;
 }
 
+.pic-text{
+	text-align: center;
+	font-family: silom;
+	font-size: 18px;
+}
+
+.pic-text2{
+	text-align: center;
+	font-family: silom;
+	font-size: 18px;
+}
+
 .after3{
 	clear: left;
 }
@@ -87,6 +100,17 @@
 	height: 200px;
 	width: 350;
 	margin: 2.5em;
+}
+
+.review-box{
+	display: inline-block;
+	height: 200px;
+	width: 350;
+	margin: 2.5em;
+	text-align: center;
+	font-family: silom;
+	font-size: 26px;
+	top: 2em;
 }
 
 .heading-sub{
@@ -137,4 +161,93 @@
 
 .source{
 	line-height: 800%;
+}
+
+.box-news{
+	display: inline-block;
+	margin: 6em;
+}
+
+@import url(//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css);
+
+.detailBox {
+    width:600px;
+    border:1px solid #bbb;
+    margin: 10em;
+    font-family: silom;
+}
+.titleBox {
+    background-color:#fdfdfd;
+    padding:10px;
+}
+.titleBox label{
+  color:#444;
+  margin:0;
+  display:inline-block;
+}
+
+.commentBox {
+    padding:10px;
+    border-top:1px dotted #bbb;
+}
+.commentBox .form-group:first-child, .actionBox .form-group:first-child {
+    width:80%;
+}
+.commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) {
+    width:18%;
+}
+.actionBox .form-group * {
+    width:100%;
+}
+.taskDescription {
+    margin-top:10px 0;
+}
+.commentList {
+    padding:0;
+    list-style:none;
+    max-height:200px;
+    overflow:auto;
+}
+.commentList li {
+    margin:0;
+    margin-top:10px;
+}
+.commentList li > div {
+    display:table-cell;
+}
+.commenterImage {
+    width:30px;
+    margin-right:5px;
+    height:100%;
+    float:left;
+}
+.commenterImage img {
+    width:100%;
+    border-radius:50%;
+}
+.commentText p {
+    margin:0;
+}
+.sub-text {
+    color:#aaa;
+    font-size:11px;
+}
+.actionBox {
+    border-top:1px dotted #bbb;
+    padding:10px;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before{
+   content: "\2605";
+   position: absolute;
 }
